@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.dependency 'Flutter'
   s.dependency 'CardIO'
   s.static_framework = true
-  s.ios.deployment_target = '9.0'
-  s.swift_version = '4.2'
+  s.ios.deployment_target = '8.0'
 end
 

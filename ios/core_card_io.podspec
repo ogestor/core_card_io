@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   s.dependency 'CardIO'
   s.static_framework = true
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.0'
 end
 
